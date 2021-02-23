@@ -5,7 +5,7 @@
  */
 
 // shuffleArray - take an array and shuffle the contents
-
+// Thanks to https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 function shuffleArray(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -27,7 +27,7 @@ function shuffleArray(array) {
 // thanks to https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
 function toTitleCase(str) {
     return str.replace(
-        /\w\S*/g
+        /\w\S*/g,
         function(txt) {
             return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         }
@@ -71,12 +71,12 @@ function randomizeName(userName) {
 }
 
 function main() {
-    var userName = window.prompt("Can you tell me your damn name.");
+    var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
     document.writeln("<style>:root {--textlen: " + userName.length + ";}</style>");
     var sortedName = sortUserName(userName);
     document.writeln("Here's your sorted name: " + sortedName + "</br></br>");
     var randomName = randomizeName(userName);
-    document.writeln("Sorry I can't Spell lol");
+    document.writeln("And oh hey, I fixed your name.<br>Your new one is above.");
     document.writeln("<div class='name'>" + randomName + "</div>")
 }
 
