@@ -1,6 +1,6 @@
 /*
- * Author: Wes Modes <wmodes@csumb.edu>
- * Created: 19 September
+ * Author: Mauricio Vega (mauvega@csumb.edu)
+ * Created: March 2nd
  * License: Public Domain
  */
 
