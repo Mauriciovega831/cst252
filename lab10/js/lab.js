@@ -1,6 +1,6 @@
-// Lab 10 - sort or scramble a name
-// Author: S Llawom Eydansele <wmodes@csumb.edu>
-// Created: 19 September
+// Lab 10
+// Author: Mauricio Vega <mauvega@csumb.edu
+// Created: March 4 
 // License: Public Domain
 
 // shuffleArray - take an array and shuffle the contents
