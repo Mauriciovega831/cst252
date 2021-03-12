@@ -1,6 +1,6 @@
 /*
- * Author: Wes Modes <wmodes@csumb.edu>
- * Created: 19 September
+ * Author: Mauricio Vega <mauvega@csumb.edu>  Wes Modes <wmodes@csumb.edu>
+ * Created: March 11
  * License: Public Domain
  */
 
@@ -81,3 +81,14 @@ document.getElementById("submit").addEventListener("click", function() {
     fizzBuzzBoom(max, factorObj);
     outputEl.classList.add("cols");
 })
+//for (var i=1; i <= 100; i++) {
+    //if (i%15 == 0) {
+      //  console.log("FizzBuzz");
+  //  } else if (i%3 == 0) {
+      //  console.log("Fizz");
+    //} else if (i%5 == 0) {
+      //  console.log("Buzz");
+    //} else {
+      //  console.log(i);
+  //  }
+//}
