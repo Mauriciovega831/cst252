@@ -1,6 +1,6 @@
 /*
- * Author: Wes Modes <wmodes@csumb.edu>
- * Created: 19 September
+ * Author: Mauricio Vega <mauvega@csumb.edu>
+ * Created: March 22
  * License: Public Domain
  */
 
@@ -19,8 +19,8 @@ function Vehicle(make, model, year, color, extras, name) {
 
 var vehicles = [];
 
-vehicles.push(new Vehicle("Shwinn", "LeToure", 1976, "gold", "Brookes saddle", "bike"));
-vehicles.push(new Vehicle("Ford", "Taurus", 1995, "rusty", "torn seats and broken radio", "Sparklepony"));
+vehicles.push(new Vehicle("Dodge", "Charger", 2014, "Grey", "Muscle", "Sport Car"));
+vehicles.push(new Vehicle("Nissan", "Altima", 2011, "Blue", "Gas Saver", "My first love"));
 
 outputEl = document.getElementById("output");
 for (var i = 0; i<vehicles.length; i++) {
