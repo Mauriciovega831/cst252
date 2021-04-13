@@ -1,0 +1,19 @@
+.col{
+  min-height:200px;
+  border: solid 1px white;
+}
+
+.col h1, .col h2{
+  text-align: center;
+}
+
+.row{
+  border: solid 1px white;
+}
+body{
+  background-image: url(https://wallpaperwaifu.com/wp-content/uploads/2019/09/fire-god-tanjiro-kimetsu-no-yaiba-thumb.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  color:  #B2AC88;
+}
