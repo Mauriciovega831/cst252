@@ -1,6 +1,6 @@
 // Comment block here
-// Author:
-// Date:
+// Author:Mauricio Vega
+// Date: 27 April 2021
 
 
 var URL = "https://xkcd.com/info.0.json";
